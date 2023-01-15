@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+    max-width: 1368px;
+    background-color: rgb(243, 236, 255);
+}
+
+header{
+    background-color: rgb(232, 220, 255);
+}
+
+.container{
+    width: 1000px;
+    margin: auto;
+}
+
+body .container nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body .container nav i{
+    font-size: 1.6em;
+    color: blueviolet;
+}
+
+body .container nav .charkh{
+    position: relative;
+}
+
+
+body .container nav .fa-plus{
+    position: absolute;
+    color: rgb(232, 220, 255);
+    top: 2px;
+    right: 6px;
+    font-size: 0.8em;
+}
+
+body .container nav .count{
+    position: absolute;
+    background-color: brown;
+    color: rgb(232, 220, 255);
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    right: -15px;
+    top: -14px;
+    font-size: 1.1em;
+}
+
