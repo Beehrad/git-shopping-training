@@ -110,7 +110,7 @@ section >.container >.products >.item> button{
 
 
 .backdrop{
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     background-color: rgba(0, 0, 0 ,0.5);
@@ -119,8 +119,6 @@ section >.container >.products >.item> button{
     position: fixed;
     top: 0;
     left: 0;
-    border: 1px solid red;
-    opacity: 1;
 }
 
 .modal{
@@ -134,8 +132,10 @@ section >.container >.products >.item> button{
     justify-content: center;
     align-items: center;
     border-radius: 15px;
-    transition: all ease-in-out 0.5s;
-    transform: translateY(0vh);
+    opacity: 0;
+    transition: ease-in-out 0.5s;
+    transform: translateY(-100vh);
+    box-shadow: 0 10px 120px rgba(0, 0, 0, 0.07);
 }
 
 .cart-item{
