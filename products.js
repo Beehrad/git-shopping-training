@@ -9,7 +9,7 @@ export const productsData =[
         id : 2,
         title : "Queen bed",
         price : 13.99,
-        imageUrl : "./img/products-2.jpg",
+        imageUrl : "./img/products-7.jpg",
     },
     {
         id : 3,
@@ -45,7 +45,7 @@ export const productsData =[
         id : 8,
         title : "Passenger bed",
         price : 15.99,
-        imageUrl : "./img/products-8.jpg",
+        imageUrl : "./img/products-3.jpg",
     },
 
 ];
